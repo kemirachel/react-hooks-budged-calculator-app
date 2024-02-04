@@ -125,7 +125,7 @@ function App() {
       <h1>
         total spending :
         <span className="total">
-          $
+          €
           {expenses.reduce((acc, curr) => {
             return (acc += curr.amount);
           }, 0)}
